@@ -1,0 +1,55 @@
+#bakgrund {
+    background: url(img/leksand\ bild.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+#stjärnor {
+    width: 500px;
+    margin-bottom: -80px;
+}
+
+
+#bild {
+width: 420px;
+}
+
+#välkommentext {
+font-size: 150px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: -15px;
+color: white;
+-webkit-text-stroke: blue;
+-webkit-text-stroke-width: 3px;
+text-align: center;
+}
+
+/* testade använda class */
+
+.medlemstext:hover{
+    transition: 1s;
+    font-size: 120px;
+
+}
+
+.medlemstext{
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke:red;
+    -webkit-text-stroke-width: 2px;
+    font-size: 80px;
+    text-align: center;
+    transition: 1s;
+}
+
+
+  
+
+
+a[href="index.html"]{
+font-size: 25px;
+text-decoration: none;
+border: 1px solid blue;
+}
+
+
